@@ -1,0 +1,141 @@
+
+a{
+    text-decoration: none;
+    color:#f2f2f2;
+}
+
+html{
+    font-family: "Open Sans" , sans-serif;
+}
+/* Navigasyon Bari Css Kodlari */
+#navbar{
+    color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.75rem;
+    height: 30px;
+
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 10px;
+    padding-top: 19px;
+}
+#navbar ul li a:hover{
+    background: #f2f2f2;
+    border-radius: 6px;
+    color: black;
+    padding-top: 19px;
+}
+
+@media(max-width:768px){
+    #navbar{
+        flex-direction: column;
+        height: 60px;
+        padding: 0;
+    }
+}
+@media(max-width:598px){
+    #navbar{
+        flex-direction: row;
+        height: 30px;
+    }
+    #navbar ul li a span{
+        display: none;
+    }
+    #navbar ul li a i{
+        color: #f2f2f2;
+       padding-top: 15px;
+        
+    }
+
+    .hakkinda img{
+        border-radius: 1000px;
+        max-width: 200px;
+        max-height: 200px;
+        
+    
+    }
+    .hakyaz1{
+        padding-left: 60px;
+        overflow: hidden;
+    }
+}
+
+.hakkinda{
+    padding-top: 6em;
+    max-width: 700px;
+    max-height: 500px;
+    
+    
+ 
+}
+
+.hakkinda img{
+    border-radius: 1000px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.isim{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hakkinda1{
+    padding-top: 3em;
+    max-width: 700px;
+    max-height: 500px;
+    
+    
+ 
+}
+
+.hakkinda1 img{
+    border-radius: 1000px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.endbar{
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    background-color: #4B83A6;
+    color: #f2f2f2;
+    text-align: center;
+    
+}
+.endbar a:hover{
+    background-color: #f2f2f2;
+    padding-left: 4px;
+    padding-right: 4px;
+    border:1px solid #4B83A6 ;
+    color:#4B83A6;
+    border-radius: 6px;
+}
+
+.hakyaz1 a{
+    color: #4B83A6;
+    text-decoration: underline;
+}
+.hakyaz1 a:hover{
+    border-radius: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+    background-color:  #f2f2f2;
+    color: black;
+}
+.videobr{
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color:#4B83A6;
+    
+}

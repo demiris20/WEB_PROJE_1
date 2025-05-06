@@ -1,0 +1,36 @@
+.bg-font-gold{
+ background-color: gold;
+}
+.bg-font-brown{
+    background-color: brown;
+}
+.times{
+    font-family: 'Times New Roman', Times, serif;
+}
+.takimarka{
+    background-image: url("wallpaper-sport-logo-football-turkish-superlig-kayserispor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 33.75rem;
+    background-color: gold;
+}
+.ortala{
+    align-items: center;
+}
+.takimyazi{
+    border-radius: 16px;
+    background-color: brown;
+    color:#f2f2f2;
+    opacity: 80%;
+}
+
+.seffaf{
+    opacity: 90%;
+}
+.usttemargin{
+    margin-top: 5%;
+}
+.yazibuyut{
+    font-size: large;
+}
