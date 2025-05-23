@@ -1,0 +1,69 @@
+
+.kkalesi{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.giris{
+
+    width: 100%;
+    height: 33.75rem;
+    background-image: url("Kayseri-Turkey.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: #28242c;
+}
+
+.sehirbilgisi{
+    margin-top: 4rem;
+    opacity: 60%;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #f2f2f2;
+}
+
+.sehirbaslik{
+    opacity: 60%;
+    background-color: #f2f2f2;
+    color:black;
+    
+}
+
+.cerceve{
+    border:1px solid black;
+    border-radius: 10px;
+    max-width: 50%;
+    max-height: 40%;
+}
+.sinir{
+    width: 100%;
+    height: 40%;
+}
+
+.uzat{
+    max-width: 100%;
+}
+.yazi{
+    color: #f2f2f2;
+}
+.endbar{
+    background-color: #8a8080;
+}
+
+.takimborder:hover{
+    color: brown;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 1px solid black;
+    background-color: gold;
+    border-radius: 7px;
+}
+.takimborder{
+    padding-left: 3%;
+    padding-right: 3%;
+    color: gold;   
+    border: 1px solid black;
+    background-color: brown;
+    border-radius: 7px;
+}

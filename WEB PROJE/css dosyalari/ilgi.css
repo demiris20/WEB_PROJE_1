@@ -1,0 +1,19 @@
+.filmbox{
+    max-width: 100%;
+    max-height: 30%;
+    overflow: hidden;
+}
+
+.film-aciklama{
+    max-height: 30%;
+    max-width: 90%;
+    overflow-y: auto;
+}
+.solmargin{
+    margin-left: 0;
+}
+.filmcerceve{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+

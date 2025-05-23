@@ -1,0 +1,45 @@
+section img{
+    max-width: 100px;
+    max-width: 150px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+
+}
+.giris{
+    padding: 0;
+    margin-top: 30px;
+    
+    
+}
+.okullar {
+    
+    border: 2px solid black;
+    padding-top: 0;
+}
+.pdiller{
+    border: 2px solid black;
+    padding: 0;
+}
+.diller{
+    border: 2px solid black;
+}
+.bilgiler{
+    border: 2px solid black;
+    border-top: 0;
+}
+.klup{
+    border:2px solid black;
+}
+.staj{
+    border: 2px solid black;
+}
+.isim{
+    border: 2px solid black;
+}
+.resim{
+    border: 2px solid black;
+}
+
+.okullar a{
+    color: chocolate;
+}
